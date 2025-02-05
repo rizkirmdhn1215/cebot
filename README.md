@@ -1,55 +1,51 @@
-echo "# Cebot
+# 🤖 Cebot
 
-Cebot is a simple chatbot built using Next.js and Supabase as the backend.
+Cebot adalah chatbot sederhana yang dibangun menggunakan **Next.js** untuk frontend dan **Supabase** sebagai backend.
 
-## Features
+## ✨ Fitur
 
-- **Next.js** for the frontend
-- **Supabase** for the backend
-- Basic chatbot functionality
+- 🚀 **Next.js** untuk tampilan antarmuka yang cepat dan modern
+- 🗄️ **Supabase** sebagai backend yang andal
+- 💬 **Fungsi chatbot dasar** untuk berinteraksi dengan pengguna
 
-## Installation
+## 📌 Instalasi
 
-1. Clone the repository:
-   \`\`\`sh
+1. **Clone repository:**
+   ```sh
    git clone https://github.com/rizkirmdhn1215/cebot.git
    cd cebot
-   \`\`\`
+   ```
 
-2. Install dependencies:
-   \`\`\`sh
+2. **Instal dependensi:**
+   ```sh
    npm install
-   \`\`\`
+   ```
 
-3. Set up Supabase:
-   - Create a project on [Supabase](https://supabase.io).
-   - Obtain your Supabase URL and API Key.
-   - Create a \`.env.local\` file in the root directory of the project and add the following environment variables:
-     \`\`\`env
+3. **Konfigurasi Supabase:**
+   - Buat proyek di [Supabase](https://supabase.io).
+   - Dapatkan **Supabase URL** dan **API Key**.
+   - Buat file `.env.local` di direktori root proyek dan tambahkan variabel berikut:
+     ```env
      NEXT_PUBLIC_SUPABASE_URL=your-supabase-url
      NEXT_PUBLIC_SUPABASE_ANON_KEY=your-supabase-anon-key
-     \`\`\`
+     ```
 
-4. Run the development server:
-   \`\`\`sh
+4. **Jalankan server pengembangan:**
+   ```sh
    npm run dev
-   \`\`\`
+   ```
+   Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya.
 
-   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🎯 Penggunaan
 
-## Usage
+- Gunakan chatbot melalui antarmuka web.
+- Sesuaikan respons dan perilaku chatbot melalui backend Supabase.
 
-- Interact with the chatbot through the web interface.
-- Customize the bot's responses and behavior through the Supabase backend.
+## 🤝 Kontribusi
 
-## Contributing
+Kontribusi sangat diterima! Jangan ragu untuk membuka **issue** atau mengajukan **pull request**.
 
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+## 📜 Lisensi
 
-## License
+Proyek ini dilisensikan di bawah **MIT License**.
 
-This project is licensed under the MIT License." > README.md
-
-git add README.md
-git commit -m "Add README.md"
-git push origin main
