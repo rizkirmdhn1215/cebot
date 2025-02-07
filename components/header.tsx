@@ -17,7 +17,7 @@ export async function Header({ user }: { user: User }) {
     <header className="sticky top-0 z-50 bg-white border-b">
       <div className="container mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <span className="text-2xl font-bold text-[#FF4B4B]">AI Chat</span>
+          <span className="text-2xl font-bold text-[#FF4B4B]">Cebot's</span>
           <span className="hidden sm:inline-block text-sm text-gray-500">|</span>
           <span className="hidden sm:inline-block text-sm text-gray-500">{user.email}</span>
         </div>
