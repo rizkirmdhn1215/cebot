@@ -35,7 +35,8 @@ Cebot adalah chatbot sederhana yang dibangun menggunakan **Next.js** untuk front
    npm run dev
    ```
    Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya.
-   Untuk Realtime Web dapat diakses di (cebot-sigma.vercel.app)
+   
+   Untuk Realtime Web dapat diakses di [(cebot-sigma.vercel.app)]
 
 ## 🎯 Penggunaan
 
